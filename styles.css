@@ -57,7 +57,7 @@ a:hover {
 
 header {
   text-align: center;
-  background: url('images/rsz_hanoi_vietnam.jpg') no-repeat top center ;
+  background: url('images/matrix.jpg') no-repeat top center;
   background-size: cover;
   overflow: hidden;
   padding-top: 60px;
@@ -76,8 +76,12 @@ header .profile-image {
 header .profile-image:hover {
   transform: scale(1.2) rotate(360deg);
 }
+
+.interests-header {
+  background: url('images/interests-bass.jpg');
+}
 .tag {
-  background-color: #efefef;
+  background-color: white;
   color: black;
   padding: 10px;
   border-radius: 5px;
@@ -85,7 +89,7 @@ header .profile-image:hover {
   margin: 10px auto;
 } 
 .location {
-  background-color: #222;
+  background-color: black;
   color: yellow;
 }
 .card {
@@ -99,7 +103,7 @@ header .profile-image:hover {
   transition: all .5s;
 }
 .card:hover {
-  border-color: #ff99ff;
+  border-color: navy
 }
 
 ul.skills {
@@ -110,14 +114,14 @@ ul.skills {
 .skills li {
   border-radius: 6px;
   display: inline-block;
-  background: #ff9904;
+  background: navy;
   color: white;
   padding: 5px 10px;
   margin: 2px;
 }
 
 .skills li:nth-child(odd) {
-  background: #0399ff;
+  background: darkcyan;
 }
 
 footer {
