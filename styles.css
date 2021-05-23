@@ -7,8 +7,7 @@ body {
   margin: 0;
   padding: 0;
   text-align: center;
-  font-family: 'Roboto', sans-serif;
-  color: #222;
+  font-family: 'Libre Baskerville', serif;  color: #222;
   background: #f7f5f0;
 }
 /* Link Styles */
@@ -70,15 +69,25 @@ header .profile-image {
   width: 150px;
   height: 150px;
   border-radius: 50%;
-  border: 3px solid white;
-  transition: all .5s;
+  border: 6px solid white;
+  transition: all 1s;
 }
 header .profile-image:hover {
   transform: scale(1.2) rotate(360deg);
 }
-
+header .interests-image {
+  margin-top: 50px;
+  width: 550px;
+  height: 290px;
+  border-radius: 0%;
+  border: 6px solid white;
+  transition: all .5s;
+}
+header .interests-image:hover {
+  transform: scale(1.1);
+}
 .interests-header {
-  background: url('images/interests-bass.jpg');
+  background: url('images/fender-jazz-bass-1.jpg') no-repeat center;
 }
 .tag {
   background-color: white;
